@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="sentinel-mainmodule-studio" />
+        <module name="sentinel-client-main-studio" />
         <module name="nacos-register-module" />
         <module name="alibaba-springcloud-parent" />
       </profile>
@@ -15,6 +16,7 @@
       <module name="alibaba springcloud studio" target="1.8" />
       <module name="alibaba-springcloud-parent" target="1.8" />
       <module name="nacos-register-module" target="1.8" />
+      <module name="sentinel-client-main-studio" target="17" />
       <module name="sentinel-mainmodule-studio" target="1.8" />
       <module name="sentinel-studio" target="1.8" />
     </bytecodeTargetLevel>
@@ -24,6 +26,7 @@
       <module name="alibaba springcloud studio" options="-parameters" />
       <module name="alibaba-springcloud-parent" options="-parameters" />
       <module name="nacos-register-module" options="-parameters" />
+      <module name="sentinel-client-main-studio" options="-parameters" />
       <module name="sentinel-mainmodule-studio" options="-parameters" />
       <module name="sentinel-studio" options="-parameters" />
     </option>
