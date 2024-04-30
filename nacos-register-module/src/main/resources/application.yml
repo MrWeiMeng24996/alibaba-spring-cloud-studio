@@ -1,0 +1,22 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: main-module-nacos-client
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848 # Nacos 服务器的地址和端口
+#        server-addr: 127.0.0.1:8848 # Nacos 服务器的地址和端口
+#        namespace: your-namespace-id # 命名空间 ID，如果没有使用命名空间，可以省略此配置项
+#        group: DEFAULT_GROUP # 服务组，默认为 DEFAULT_GROUP
+#      config:
+#        server-addr: localhost:8848 # Nacos 服务器的地址和端口，通常与 discovery 的 server-addr 相同
+#        namespace: your-namespace-id # 命名空间 ID，如果没有使用命名空间，可以省略此配置项
+#        group: DEFAULT_GROUP # 配置组，默认为 DEFAULT_GROUP
+#        data-id: your-data-id # 配置数据的 ID
+#        file-extension: yaml # 配置数据的文件格式，如 yaml、properties 等
+logging:
+  level:
+    org.springframework.cloud.openfeign: DEBUG

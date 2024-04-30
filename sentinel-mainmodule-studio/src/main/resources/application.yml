@@ -1,0 +1,20 @@
+server:
+  port: 8401
+
+spring:
+  application:
+    name: sentinel-main-module
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+        port: 8179
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

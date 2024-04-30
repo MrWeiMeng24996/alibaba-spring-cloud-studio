@@ -1,0 +1,22 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: main-module-nacos-client
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848 # Nacos �������ĵ�ַ�Ͷ˿�
+#        server-addr: 127.0.0.1:8848 # Nacos �������ĵ�ַ�Ͷ˿�
+#        namespace: your-namespace-id # �����ռ� ID�����û��ʹ�������ռ䣬����ʡ�Դ�������
+#        group: DEFAULT_GROUP # �����飬Ĭ��Ϊ DEFAULT_GROUP
+#      config:
+#        server-addr: localhost:8848 # Nacos �������ĵ�ַ�Ͷ˿ڣ�ͨ���� discovery �� server-addr ��ͬ
+#        namespace: your-namespace-id # �����ռ� ID�����û��ʹ�������ռ䣬����ʡ�Դ�������
+#        group: DEFAULT_GROUP # �����飬Ĭ��Ϊ DEFAULT_GROUP
+#        data-id: your-data-id # �������ݵ� ID
+#        file-extension: yaml # �������ݵ��ļ���ʽ���� yaml��properties ��
+logging:
+  level:
+    org.springframework.cloud.openfeign: DEBUG

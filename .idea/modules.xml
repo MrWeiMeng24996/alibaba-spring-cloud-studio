@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/alibaba-springcloud-parent.iml" filepath="$PROJECT_DIR$/alibaba-springcloud-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-register-module/nacos-register-module.iml" filepath="$PROJECT_DIR$/nacos-register-module/nacos-register-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sentinel-main-studio.iml" filepath="$PROJECT_DIR$/sentinel-main-studio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sentinel-mainmodule-studio/sentinel-mainmodule-studio.iml" filepath="$PROJECT_DIR$/sentinel-mainmodule-studio/sentinel-mainmodule-studio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sentinel-studio.iml" filepath="$PROJECT_DIR$/sentinel-studio.iml" />
+    </modules>
+  </component>
+</project>

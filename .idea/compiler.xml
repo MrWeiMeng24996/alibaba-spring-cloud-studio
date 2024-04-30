@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sentinel-mainmodule-studio" />
+        <module name="nacos-register-module" />
+        <module name="alibaba-springcloud-parent" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="alibaba springcloud studio" target="1.8" />
+      <module name="alibaba-springcloud-parent" target="1.8" />
+      <module name="nacos-register-module" target="1.8" />
+      <module name="sentinel-mainmodule-studio" target="1.8" />
+      <module name="sentinel-studio" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="alibaba springcloud studio" options="-parameters" />
+      <module name="alibaba-springcloud-parent" options="-parameters" />
+      <module name="nacos-register-module" options="-parameters" />
+      <module name="sentinel-mainmodule-studio" options="-parameters" />
+      <module name="sentinel-studio" options="-parameters" />
+    </option>
+  </component>
+</project>
