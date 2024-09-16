@@ -6,6 +6,10 @@
         <option value="$PROJECT_DIR$/nacos-register-module/pom.xml" />
         <option value="$PROJECT_DIR$/sentinel-mainmodule-studio/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/rocketmq-client-kobron/pom.xml" />
+        <option value="$PROJECT_DIR$/rocketmq-consumer-bywenxinyiyan-one/pom.xml" />
+        <option value="$PROJECT_DIR$/rocketmq-producer-bywenxinyiyan-one/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-first/pom.xml" />
       </list>
     </option>
   </component>

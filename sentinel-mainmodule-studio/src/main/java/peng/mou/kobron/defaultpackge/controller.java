@@ -1,14 +1,28 @@
 package peng.mou.kobron.defaultpackge;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+import peng.mou.kobron.defaultpackge.service.DefaultService;
+
+import javax.servlet.http.HttpServletResponse;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 
 @RestController
 public class controller {
 
-    @GetMapping("/testA")
-    public String TestA(){
+    @Autowired
+    private DefaultService defaultService;
 
+    @GetMapping("/testA")
+    public @ResponseBody HttpServletResponse  TestA(HttpServletResponse response )  throws IOException {
+       return defaultService.defaultMethod(response);
+
+    }
+
+    @GetMapping("/testC")
+    private String TestC(){
+//        defaultService.defaultMethod();
         return "This is TestA";
     }
 

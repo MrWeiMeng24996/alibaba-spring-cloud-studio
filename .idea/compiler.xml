@@ -2,13 +2,19 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="sentinel-mainmodule-studio" />
         <module name="sentinel-client-main-studio" />
+        <module name="rocketmq-client-kobron" />
+        <module name="redis-first" />
         <module name="nacos-register-module" />
+        <module name="rocketmq-producer-bywenxinyiyan-one" />
+        <module name="rocketmq-consumer-bywenxinyiyan-one" />
+        <module name="rocketmq-consumer-kobron" />
         <module name="alibaba-springcloud-parent" />
       </profile>
     </annotationProcessing>
@@ -16,6 +22,12 @@
       <module name="alibaba springcloud studio" target="1.8" />
       <module name="alibaba-springcloud-parent" target="1.8" />
       <module name="nacos-register-module" target="1.8" />
+      <module name="redis-first" target="1.8" />
+      <module name="rocketmq-client-kobron" target="1.8" />
+      <module name="rocketmq-consumer-bywenxinyiyan-one" target="1.8" />
+      <module name="rocketmq-consumer-kobron" target="1.8" />
+      <module name="rocketmq-consumer-wenxinyiyan-one" target="1.8" />
+      <module name="rocketmq-producer-bywenxinyiyan-one" target="1.8" />
       <module name="sentinel-client-main-studio" target="17" />
       <module name="sentinel-mainmodule-studio" target="1.8" />
       <module name="sentinel-studio" target="1.8" />
@@ -26,6 +38,12 @@
       <module name="alibaba springcloud studio" options="-parameters" />
       <module name="alibaba-springcloud-parent" options="-parameters" />
       <module name="nacos-register-module" options="-parameters" />
+      <module name="redis-first" options="-parameters" />
+      <module name="rocketmq-client-kobron" options="-parameters" />
+      <module name="rocketmq-consumer-bywenxinyiyan-one" options="-parameters" />
+      <module name="rocketmq-consumer-kobron" options="-parameters" />
+      <module name="rocketmq-consumer-wenxinyiyan-one" options="-parameters" />
+      <module name="rocketmq-producer-bywenxinyiyan-one" options="-parameters" />
       <module name="sentinel-client-main-studio" options="-parameters" />
       <module name="sentinel-mainmodule-studio" options="-parameters" />
       <module name="sentinel-studio" options="-parameters" />
