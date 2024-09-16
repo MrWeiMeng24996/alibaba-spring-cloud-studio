@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: rocketmq-client-kobron
+
+server:
+  port: 8090

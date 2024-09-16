@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: rocketmq-consumer-bywenxinyiyan-one
+rocketmq:
+  name-server: 127.0.0.1:9876 # RocketMQ NameServer的地址和端口
+  consumer:
+    group: The_first_test_Produce_Group_byKobron # 消费者组名
+
+#server:
+#  port: 9001

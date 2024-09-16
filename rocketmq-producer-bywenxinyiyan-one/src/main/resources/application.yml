@@ -1,0 +1,6 @@
+rocketmq:
+  name-server: 127.0.0.1:9876 # RocketMQ NameServer的地址和端口  
+  producer:
+    group: rocketmq_producer_bywenxinyiyan_one # 生产者组名
+server:
+  port: 9002
